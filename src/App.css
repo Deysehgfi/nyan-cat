@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgb(255, 255, 255);
+  transition: 6.0s;
+  cursor: url('../public/cursor.png') , auto;
+  
+  
+}
+*:hover{
+  background-image: url('https://th.bing.com/th/id/OIP.l2BKS0a27wee2SgLrWNK0wHaHa?rs=1&pid=ImgDetMain');
+  color: blue;
+  background-color: rgb(78, 78, 78)
+}
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
